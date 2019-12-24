@@ -22,7 +22,7 @@ public class DB {
        /* String url="jdbc:mysql//localhost:3306/gestionFacture";*/
         String url="jdbc:mysql://127.0.0.1:3306/gestionFacture";
         String user="root";
-        String password="pipo";
+        String password="lol";
         try {
         Class.forName("com.mysql.jdbc.Driver");
         cnx= DriverManager.getConnection(url,user,password);
